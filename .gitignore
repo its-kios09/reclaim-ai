@@ -7,3 +7,5 @@ ui/dist/
 *.log
 genome.json
 events.db
+.venv/
+__pycache__/
