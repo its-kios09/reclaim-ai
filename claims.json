@@ -1,0 +1,1906 @@
+{
+  "total_denied_usd": 27233.42,
+  "count": 50,
+  "claims": [
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0001",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Esther Barasa",
+        "member_id": "MBR-207473",
+        "dob": "1993-12-18"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99213",
+          "description": "Office visit, established patient, low complexity",
+          "icd10": "I10",
+          "modifiers": [],
+          "billed_amount_usd": 121.22
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-02",
+        "denied": "2026-03-24"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-23"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0002",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Hassan Cherono",
+        "member_id": "MBR-731262",
+        "dob": "1951-09-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 23.55
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-03",
+        "denied": "2026-03-17"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-16"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0003",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Amina Kamau",
+        "member_id": "MBR-832052",
+        "dob": "1977-06-09"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "I21.9",
+          "modifiers": [],
+          "billed_amount_usd": 1201.03
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-07",
+        "denied": "2026-04-29"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-06-28"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0004",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Kevin Njoroge",
+        "member_id": "MBR-733052",
+        "dob": "1966-01-24"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "97110",
+          "description": "Therapeutic exercise, 15 min",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 91.03
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-07",
+        "denied": "2026-03-23"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-22"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0005",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "James Ndungu",
+        "member_id": "MBR-748564",
+        "dob": "1973-10-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99213",
+          "description": "Office visit, established patient, low complexity",
+          "icd10": "I10",
+          "modifiers": [],
+          "billed_amount_usd": 112.26
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-29",
+        "denied": "2026-05-25"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-24"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0006",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Hassan Ochieng",
+        "member_id": "MBR-498591",
+        "dob": "1967-08-21"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "80053",
+          "description": "Comprehensive metabolic panel",
+          "icd10": "E11.9",
+          "modifiers": [],
+          "billed_amount_usd": 87.32
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-19",
+        "denied": "2026-05-12"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-07-11"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0007",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Cynthia Omondi",
+        "member_id": "MBR-765822",
+        "dob": "1960-09-24"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "97110",
+          "description": "Therapeutic exercise, 15 min",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 102.13
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-23",
+        "denied": "2026-04-12"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-06-11"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0008",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Quincy Wanjiru",
+        "member_id": "MBR-817870",
+        "dob": "1970-01-08"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "R69",
+          "modifiers": [],
+          "billed_amount_usd": 1278.02
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-25",
+        "denied": "2026-04-16"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-15"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0009",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Rehema Barasa",
+        "member_id": "MBR-429963",
+        "dob": "1963-11-16"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 24.87
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-18",
+        "denied": "2026-04-03"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-02"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0010",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Quincy Cherono",
+        "member_id": "MBR-375504",
+        "dob": "1997-10-14"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "I21.9",
+          "modifiers": [],
+          "billed_amount_usd": 914.69
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-10",
+        "denied": "2026-04-01"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-31"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0011",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Brian Ochieng",
+        "member_id": "MBR-260265",
+        "dob": "1990-03-26"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "80053",
+          "description": "Comprehensive metabolic panel",
+          "icd10": "E11.9",
+          "modifiers": [],
+          "billed_amount_usd": 72.94
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-09",
+        "denied": "2026-04-08"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-07"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0012",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Nancy Cherono",
+        "member_id": "MBR-363626",
+        "dob": "1985-01-22"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99213",
+          "description": "Office visit, established patient, low complexity",
+          "icd10": "I10",
+          "modifiers": [],
+          "billed_amount_usd": 140.18
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-25",
+        "denied": "2026-04-20"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-19"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0013",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Faith Ochieng",
+        "member_id": "MBR-407757",
+        "dob": "1977-03-15"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "29881",
+          "description": "Knee arthroscopy with meniscectomy",
+          "icd10": "M23.205",
+          "modifiers": [],
+          "billed_amount_usd": 3986.78
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-18",
+        "denied": "2026-05-10"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-09"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0014",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "David Ndungu",
+        "member_id": "MBR-412942",
+        "dob": "1990-09-20"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "J18.9",
+          "modifiers": [],
+          "billed_amount_usd": 236.98
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-02",
+        "denied": "2026-04-21"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-06-20"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0015",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Mwangi",
+        "member_id": "MBR-728038",
+        "dob": "1970-08-01"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "97110",
+          "description": "Therapeutic exercise, 15 min",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 97.13
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-18",
+        "denied": "2026-05-07"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-06"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0016",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Rehema Ochieng",
+        "member_id": "MBR-189814",
+        "dob": "1996-08-27"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "J18.9",
+          "modifiers": [],
+          "billed_amount_usd": 211.76
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-16",
+        "denied": "2026-03-31"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-30"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0017",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Felix Kiptoo",
+        "member_id": "MBR-653306",
+        "dob": "1988-07-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 125.98
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-09",
+        "denied": "2026-04-07"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-06-06"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0018",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Mutua",
+        "member_id": "MBR-226882",
+        "dob": "1965-04-03"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "J18.9",
+          "modifiers": [],
+          "billed_amount_usd": 230.4
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-26",
+        "denied": "2026-04-20"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-06-19"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0019",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Amina Ochieng",
+        "member_id": "MBR-842225",
+        "dob": "1990-01-08"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "45378",
+          "description": "Colonoscopy, diagnostic",
+          "icd10": "K57.30",
+          "modifiers": [],
+          "billed_amount_usd": 1339.52
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-05",
+        "denied": "2026-04-26"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-25"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0020",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Otieno Wanjiru",
+        "member_id": "MBR-665427",
+        "dob": "1958-12-19"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "97110",
+          "description": "Therapeutic exercise, 15 min",
+          "icd10": "M54.5",
+          "modifiers": [],
+          "billed_amount_usd": 85.6
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-05",
+        "denied": "2026-04-04"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-03"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0021",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "David Ndungu",
+        "member_id": "MBR-551989",
+        "dob": "1972-07-14"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "R69",
+          "modifiers": [],
+          "billed_amount_usd": 936.4
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-21",
+        "denied": "2026-05-18"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-17"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0022",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Faith Ochieng",
+        "member_id": "MBR-360735",
+        "dob": "1962-04-18"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99214",
+          "description": "Office visit, established patient, moderate complexity",
+          "icd10": "E11.65",
+          "modifiers": [],
+          "billed_amount_usd": 166.91
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-13",
+        "denied": "2026-04-30"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-29"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0023",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Cynthia Mutua",
+        "member_id": "MBR-947272",
+        "dob": "1985-02-02"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 27.7
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-12",
+        "denied": "2026-04-03"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-02"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0024",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Grace Achieng",
+        "member_id": "MBR-161483",
+        "dob": "1960-07-01"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "80053",
+          "description": "Comprehensive metabolic panel",
+          "icd10": "E11.9",
+          "modifiers": [],
+          "billed_amount_usd": 72.71
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-11",
+        "denied": "2026-04-07"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-06"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0025",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Quincy Ndungu",
+        "member_id": "MBR-853305",
+        "dob": "1981-03-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "I21.9",
+          "modifiers": [],
+          "billed_amount_usd": 1152.79
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-19",
+        "denied": "2026-04-15"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-06-14"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0026",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Brian Mwangi",
+        "member_id": "MBR-712554",
+        "dob": "1980-09-28"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99214",
+          "description": "Office visit, established patient, moderate complexity",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 222.59
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-07",
+        "denied": "2026-04-22"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-06-21"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0027",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Cynthia Ndungu",
+        "member_id": "MBR-346629",
+        "dob": "1975-02-19"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "29881",
+          "description": "Knee arthroscopy with meniscectomy",
+          "icd10": "M23.205",
+          "modifiers": [],
+          "billed_amount_usd": 2978.67
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-06",
+        "denied": "2026-03-25"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-05-24"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0028",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Rehema Omondi",
+        "member_id": "MBR-648177",
+        "dob": "1970-05-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "45378",
+          "description": "Colonoscopy, diagnostic",
+          "icd10": "K57.30",
+          "modifiers": [],
+          "billed_amount_usd": 1251.95
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-03",
+        "denied": "2026-03-19"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-05-18"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0029",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "James Mutua",
+        "member_id": "MBR-431535",
+        "dob": "1998-02-01"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 252.47
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-26",
+        "denied": "2026-04-13"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-12"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0030",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Kiptoo",
+        "member_id": "MBR-238890",
+        "dob": "1972-02-08"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "45378",
+          "description": "Colonoscopy, diagnostic",
+          "icd10": "K57.30",
+          "modifiers": [],
+          "billed_amount_usd": 1313.23
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-07",
+        "denied": "2026-03-23"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-05-22"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0031",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Mwangi",
+        "member_id": "MBR-800305",
+        "dob": "1985-05-22"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 111.65
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-29",
+        "denied": "2026-04-21"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-20"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0032",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Esther Kiptoo",
+        "member_id": "MBR-395442",
+        "dob": "1988-04-23"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 259.16
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-08",
+        "denied": "2026-03-25"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-05-24"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0033",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Brian Ochieng",
+        "member_id": "MBR-765095",
+        "dob": "1977-05-02"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "Z00.00",
+          "modifiers": [],
+          "billed_amount_usd": 212.73
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-02",
+        "denied": "2026-05-01"
+      },
+      "denial": {
+        "carc_code": "CO-11",
+        "reason_text": "The diagnosis is inconsistent with the procedure.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-30"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0034",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Nancy Cherono",
+        "member_id": "MBR-839945",
+        "dob": "1977-09-01"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 92.41
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-10",
+        "denied": "2026-05-02"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-01"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0035",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Rehema Cherono",
+        "member_id": "MBR-255287",
+        "dob": "1977-03-02"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 121.18
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-04",
+        "denied": "2026-04-19"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-06-18"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0036",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Hassan Ndungu",
+        "member_id": "MBR-207786",
+        "dob": "1972-09-28"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99214",
+          "description": "Office visit, established patient, moderate complexity",
+          "icd10": "E11.65",
+          "modifiers": [],
+          "billed_amount_usd": 179.02
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-27",
+        "denied": "2026-05-22"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-21"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0037",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Felix Achieng",
+        "member_id": "MBR-125990",
+        "dob": "1961-12-11"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 122.46
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-29",
+        "denied": "2026-05-20"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-19"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0038",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "David Achieng",
+        "member_id": "MBR-140605",
+        "dob": "1980-04-07"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "80053",
+          "description": "Comprehensive metabolic panel",
+          "icd10": "E11.9",
+          "modifiers": [],
+          "billed_amount_usd": 81.53
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-18",
+        "denied": "2026-04-06"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-05"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0039",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Grace Achieng",
+        "member_id": "MBR-444207",
+        "dob": "1967-02-25"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "71046",
+          "description": "Chest X-ray, 2 views",
+          "icd10": "J18.9",
+          "modifiers": [],
+          "billed_amount_usd": 210.07
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-22",
+        "denied": "2026-05-13"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-07-12"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0040",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "David Kiptoo",
+        "member_id": "MBR-287241",
+        "dob": "1987-05-02"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "29881",
+          "description": "Knee arthroscopy with meniscectomy",
+          "icd10": "M23.205",
+          "modifiers": [],
+          "billed_amount_usd": 4232.5
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-26",
+        "denied": "2026-04-19"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-18"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0041",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Ochieng",
+        "member_id": "MBR-503906",
+        "dob": "1986-04-09"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 27.41
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-23",
+        "denied": "2026-04-16"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-15"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0042",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Quincy Ndungu",
+        "member_id": "MBR-854377",
+        "dob": "1997-12-22"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 32.91
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-01",
+        "denied": "2026-03-31"
+      },
+      "denial": {
+        "carc_code": "PR-204",
+        "reason_text": "Service not covered under the patient's current plan.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-05-30"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0043",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "David Barasa",
+        "member_id": "MBR-414910",
+        "dob": "1982-05-22"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 29.51
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-05",
+        "denied": "2026-03-29"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-05-28"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0044",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Grace Achieng",
+        "member_id": "MBR-797229",
+        "dob": "1974-11-24"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 28.74
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-14",
+        "denied": "2026-05-07"
+      },
+      "denial": {
+        "carc_code": "CO-50",
+        "reason_text": "Non-covered: not deemed a medical necessity.",
+        "rarc_code": "N290"
+      },
+      "appeal_deadline": "2026-07-06"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0045",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Amina Kiptoo",
+        "member_id": "MBR-400850",
+        "dob": "1963-07-26"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "45378",
+          "description": "Colonoscopy, diagnostic",
+          "icd10": "K57.30",
+          "modifiers": [],
+          "billed_amount_usd": 1318.56
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-20",
+        "denied": "2026-04-15"
+      },
+      "denial": {
+        "carc_code": "CO-97",
+        "reason_text": "Payment adjusted: service bundled into another service.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-06-14"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0046",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Felix Ndungu",
+        "member_id": "MBR-188914",
+        "dob": "1968-09-22"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "99285",
+          "description": "Emergency dept visit, high severity",
+          "icd10": "I21.9",
+          "modifiers": [],
+          "billed_amount_usd": 1073.53
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-29",
+        "denied": "2026-04-18"
+      },
+      "denial": {
+        "carc_code": "CO-29",
+        "reason_text": "The time limit for filing has expired.",
+        "rarc_code": "M127"
+      },
+      "appeal_deadline": "2026-06-17"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0047",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Grace Kamau",
+        "member_id": "MBR-125611",
+        "dob": "1952-04-16"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "80053",
+          "description": "Comprehensive metabolic panel",
+          "icd10": "E11.9",
+          "modifiers": [],
+          "billed_amount_usd": 65.07
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-13",
+        "denied": "2026-05-06"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-05"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0048",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Lydia Mutua",
+        "member_id": "MBR-519066",
+        "dob": "1965-03-21"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 30.58
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-26",
+        "denied": "2026-05-16"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-15"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0049",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Peris Mutua",
+        "member_id": "MBR-152657",
+        "dob": "1985-04-28"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "36415",
+          "description": "Routine venipuncture",
+          "icd10": "D64.9",
+          "modifiers": [],
+          "billed_amount_usd": 31.55
+        }
+      ],
+      "dates": {
+        "submitted": "2026-03-15",
+        "denied": "2026-04-03"
+      },
+      "denial": {
+        "carc_code": "CO-16",
+        "reason_text": "Claim/service lacks information needed for adjudication.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-06-02"
+    },
+    {
+      "resourceType": "ClaimResponse",
+      "claim_id": "CLM-2026-0050",
+      "status": "denied",
+      "payer": {
+        "id": "PAYER-ALPHA",
+        "name": "Alpha Assurance Group"
+      },
+      "patient": {
+        "name": "Quincy Omondi",
+        "member_id": "MBR-432711",
+        "dob": "1998-08-20"
+      },
+      "provider": {
+        "npi": "1234567890",
+        "name": "Riverside Medical Center"
+      },
+      "service_lines": [
+        {
+          "line": 1,
+          "cpt": "93000",
+          "description": "Electrocardiogram, complete",
+          "icd10": "R07.9",
+          "modifiers": [],
+          "billed_amount_usd": 114.04
+        }
+      ],
+      "dates": {
+        "submitted": "2026-04-21",
+        "denied": "2026-05-19"
+      },
+      "denial": {
+        "carc_code": "CO-29",
+        "reason_text": "The time limit for filing has expired.",
+        "rarc_code": "N/A"
+      },
+      "appeal_deadline": "2026-07-18"
+    }
+  ]
+}
