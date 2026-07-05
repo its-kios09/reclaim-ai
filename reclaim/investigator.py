@@ -20,6 +20,9 @@ import os
 import sys
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 QWEN_URL = ("https://dashscope-intl.aliyuncs.com"
             "/compatible-mode/v1/chat/completions")
